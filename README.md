@@ -1,7 +1,7 @@
 # Homebrew tap for Wekoya Code
 
 ```bash
-brew install InnovateTechWorld/tap/wekoya
+brew install wekoya/tap/wekoya
 ```
 
 Then:
