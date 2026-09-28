@@ -3,28 +3,28 @@
 class Wekoya < Formula
   desc "AI pair programming, built and priced for African developers"
   homepage "https://wekoya.tech"
-  version "0.1.14"
+  version "0.1.15"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.14/wekoya-code-darwin-arm64.tar.gz"
-      sha256 "393346bce03d109d0984152f772d08012588410c14ee471a1da38e681940ab82"
+      url "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.15/wekoya-code-darwin-arm64.tar.gz"
+      sha256 "98b9695d0425d2d9a5ebbc81adb8678104d23f90f90b520488ab5de40dd2132f"
     end
     on_intel do
-      url "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.14/wekoya-code-darwin-x64.tar.gz"
-      sha256 "a56bf3710b9aafef595742acd08d125be067f540c6b01ede01b40e2eea01d443"
+      url "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.15/wekoya-code-darwin-x64.tar.gz"
+      sha256 "fa335f52a7373f0a27bbcb772619f100c0000260b659eda14fdd720cbbad13fa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.14/wekoya-code-linux-arm64.tar.gz"
-      sha256 "eb8edf351253e9c530c1647ca421a3f8c2285cc0d9d022338685b99cb10f46e6"
+      url "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.15/wekoya-code-linux-arm64.tar.gz"
+      sha256 "db775df650d5baeff0f414ddd80647cfede448508de7f7359a921a5039074fbd"
     end
     on_intel do
-      url "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.14/wekoya-code-linux-x64.tar.gz"
-      sha256 "9967e1b5837aa3c8ba6e8bbecdafe07246fb74f50337da05adf38f74dce240b6"
+      url "https://github.com/Wekoya/wekoya-releases/releases/download/v0.1.15/wekoya-code-linux-x64.tar.gz"
+      sha256 "b1a78a8b6d5b0ac287edeb376b565f1d3ff89a2afd4e721ff94c366d4032cc04"
     end
   end
 
